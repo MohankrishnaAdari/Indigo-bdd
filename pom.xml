@@ -53,9 +53,11 @@
 			<artifactId>maven-surefire-plugin</artifactId>
 			<version>3.0.0-M3</version>
 			<configuration>
-			      <featureFiles>
-				   <feature.featureFile>SearchFlights.feature</feature.featureFile>
-			      </featureFiles>
+                          <includes>
+                            <exclude>
+                                **/CucumberRunner.java
+                             </exclude>
+                            </includes>
 			</configuration>
 		</plugin>
 	</plugins>
