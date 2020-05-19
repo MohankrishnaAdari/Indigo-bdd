@@ -54,7 +54,7 @@
 			<version>3.0.0-M3</version>
 			<configuration>
 			      <featureFiles>
-				   <featureFile>SearchFlights.feature</featureFile>
+				   <feature.featureFile>SearchFlights.feature</feature.featureFile>
 			      </featureFiles>
 			</configuration>
 		</plugin>
